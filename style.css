@@ -16,22 +16,16 @@ header{
     background-color: rgb(26, 184, 184);
     top:0;
 }
-.sitewidth{
-    width: 960px;
-    margin: 0px auto;
-    background-color: #777777;
-    padding:0px;
-    margin-top: 100px;
-
-}
 .maincontent {
-    width: 960px;
     margin: auto;
     background-color: #777777;
-    position: absolute;
-    margin-top:90px;
+    width: 960px;
+    margin: 100px;
+    padding:10px;
 }
+h1{
 
+}
 #sixmar{
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
@@ -40,11 +34,46 @@ header{
     line-height:30px;
     padding:16px;
 }
+#innercontainer{
+    margin: 10px auto 10px;
+    position: relative;
+    background-color: #777777;
+    height:240px;
+
+}
+#story{
+    height:200px;
+    width: 33% auto ;
+    margin: auto;
+    float:left;
+    position:relative;
+}
+#sometext{
+    position: relative;
+    padding: 0 10px 10px;
+    font-size: 16px;
+    color: white;
+    float:left;
+    width: 70%;
+    line-height: 20px;
+
+
+}
+/*
 .container{
     position:relative;
     widows: 33%;
     margin: 0px;
     padding: 0px;
+}
+#storytext{
+    width: 33%;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+
 }
 .overlay {
     position: absolute;
@@ -112,3 +141,4 @@ header{
     float:left;
     position: relative;
 }
+*/
