@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #9e9e9e
+}
+
+header{
+    position:fixed;
+    Width: 100%;
+    height: 80px;
+    margin-bottom:10px;
+    background-color: rgb(26, 184, 184);
+    top:0;
+}
+.sitewidth{
+    width: 960px;
+    margin: 0px auto;
+    background-color: #777777;
+    padding:0px;
+    margin-top: 100px;
+
+}
+.maincontent {
+    width: 960px;
+    margin: auto;
+    background-color: #777777;
+    position: absolute;
+    margin-top:90px;
+}
+
+#sixmar{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 32px;
+    text-align:center;
+    line-height:30px;
+    padding:16px;
+}
+.container{
+    position:relative;
+    widows: 33%;
+    margin: 0px;
+    padding: 0px;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text1 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width:100%;
+  }
+  .text2 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text3 {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+#story{
+    height:300px;
+    width: 33% auto;
+    float:left;
+    position:relative;
+}
+#tournaments{
+    height:300px;
+    width: 33% auto;
+    float:left;
+    position: relative;
+}
+#community{
+    height:300px;
+    width: 33% auto;
+    float:left;
+    position: relative;
+}
